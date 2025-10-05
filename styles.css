@@ -1,0 +1,38 @@
+/*
+Colors used:
+#fefae0 - beige
+#dda15e - light brown
+#bc6c25 - darker light brown
+#606c38 - olive green
+#283618 - darker olive green
+*/
+
+body {
+  background: linear-gradient(#fefae0, #dda15e);
+  color: #bc6c25;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  margin: 1em;
+}
+.business-card {
+  display: flex;
+  background: #606c38;
+  width: 450px;
+  margin: 0 auto;
+  .card-pic {
+    width: 130px;
+    padding: 10px;
+    padding-right: 0;
+  }
+  .card-text {
+    margin: 0 auto;
+    color: #fefae0;
+    text-align: center;
+  }
+}
+.underline {
+  padding-bottom: 0.1em;
+  border-bottom: 6px solid #bc6c25;
+}

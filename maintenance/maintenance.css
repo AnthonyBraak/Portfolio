@@ -1,0 +1,21 @@
+body {
+  background-image: url(../images/Autumn.webp);
+  background-size: cover;
+  color: white;
+  text-shadow: 0 0 40px black;
+  margin: 2em;
+  text-align: justify;
+}
+#email {
+  font-weight: 800;
+}
+.a {
+  text-decoration: none;
+  color: white;
+  font-weight: 800;
+  border: 2px solid white;
+  padding: 5px 10px;
+}
+p {
+  margin: 2em 0;
+}

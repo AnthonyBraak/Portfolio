@@ -1,0 +1,82 @@
+/*
+Color palette:
+#cdb4db - pastel purple
+#ffc8dd - light pastel pink
+#ffafcc - pastel pink
+#bde0fe - light pastel blue
+#a2d3ff - pastel blue
+*/
+
+body {
+  font-family: "Happy Monkey", system-ui;
+  text-align: center;
+  background: linear-gradient(#bde0fe, #cdb4db);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+h1,
+h2,
+h3,
+h4,
+p {
+  text-shadow: 0 0 2px black;
+}
+
+#img-ai {
+  width: 300px;
+  border-radius: 50%;
+  border: 8px solid #ffafcc;
+}
+#top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+#person {
+  background: #ffafcc;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0.5em 0 0.3em 0;
+}
+#day {
+  background: #ffafcc;
+  padding: 5px 10px;
+  border-radius: 10px;
+  margin: 0;
+}
+
+.gif-section {
+  margin-top: 50px;
+}
+.gif-title {
+  margin-bottom: 0.1em;
+}
+.gif-hint {
+  margin-top: 0;
+}
+.gif-img {
+  background-image: url("images/present.jpg");
+  background-size: cover;
+  width: 400px;
+  height: 400px;
+  margin-top: 1em;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+#gif-chill:hover {
+  background-image: url("images/chill.webp");
+}
+#gif-cold:hover {
+  background-image: url("images/cold.webp");
+}
+#gif-hot:hover {
+  background-image: url("images/hot.webp");
+}
+#gif-bye {
+  border-color: #bde0fe;
+}
+#gif-bye:hover {
+  background-image: url("images/bye.webp");
+}

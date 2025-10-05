@@ -1,0 +1,58 @@
+/*
+Color palette:
+#b9b1be - light gray blue
+#667ca7 - light blue
+#2e3d5b - dark blue
+#6d5e63 - gray
+#202026 - dark gray
+*/
+
+body {
+  color: #667ca7;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  background-image: url("images/galaxy.jpg");
+  background-size: cover;
+}
+#hero {
+  background-image: url("images/space.webp");
+  background-size: cover;
+  margin: 0;
+  padding: 2em 0 10em 0;
+}
+#title {
+  text-shadow: 0px 0px 4px #202026;
+}
+.btn-apply {
+  padding: 0.2em 0.5em;
+  background: #b9b1be;
+  color: #667ca7;
+  border: none;
+  font-family: inherit;
+  font-weight: 800;
+}
+.btn-apply:hover {
+  padding: 0.5em 1em;
+  background: #667ca7;
+  color: #b9b1be;
+  font-size: 1.2em;
+}
+.underline {
+  padding-bottom: 0.1em;
+  border-bottom: 4px solid #b9b1be;
+}
+#logo {
+  width: 100px;
+}
+.terms {
+  background: #2e3d5b;
+  padding: 2em;
+}
+#return {
+  color: white;
+  text-shadow: 0 0 4px black;
+}
+#link-return {
+  color: inherit;
+}
