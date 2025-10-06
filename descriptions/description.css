@@ -1,0 +1,29 @@
+/*
+Colors used:
+#fefae0 - beige
+#dda15e - light brown
+#bc6c25 - darker light brown
+#606c38 - olive green
+#283618 - darker olive green
+*/
+
+body {
+  background: #283618;
+  margin: 2em;
+  text-align: center;
+}
+.desc-container {
+  padding: 1em 1em 3em 1em;
+  color: #606c38;
+  background: #fefae0;
+}
+.link {
+  color: inherit;
+}
+.img-demo {
+  width: 90%;
+}
+#return {
+  color: #283618;
+  margin-top: -1.5em;
+}

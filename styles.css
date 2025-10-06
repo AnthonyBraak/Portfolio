@@ -36,3 +36,11 @@ body {
   padding-bottom: 0.1em;
   border-bottom: 6px solid #bc6c25;
 }
+.footer {
+  margin: 2em;
+  padding: 0.2em 1em;
+  background-color: #283618;
+}
+.email {
+  color: #fefae0;
+}

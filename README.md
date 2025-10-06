@@ -4,11 +4,15 @@ This is the place where I will try to link all my relevant work as a Fullstack D
 
 ## Usage
 
-Just click the link and look at the provided website to see what I can do.
+Just click the [link](https://portfolio-anthony-braak.netlify.app/) and look at the provided website to see what I can do.
 
 ## Features
 
-Currently only features HTML and CSS showcase. Future Versions will link to my other projects, as well as showcase other relevant skills.
+- Showcase of HTML and CSS skills
+
+- React + TypeScript + SCSS [Recipe App](https://react-food-blog.netlify.app/) Project
+
+- Future skill displays and Projects to be added
 
 ---
 
