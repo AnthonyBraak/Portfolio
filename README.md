@@ -8,7 +8,9 @@ Just click the [link](https://portfolio-anthony-braak.netlify.app/) and look at 
 
 ## Features
 
-- Showcase of HTML and CSS skills
+- Showcase of HTML, CSS and JavaScript skills
+
+- A simple game of Blackjack
 
 - React + TypeScript + SCSS [Recipe App](https://react-food-blog.netlify.app/) Project
 

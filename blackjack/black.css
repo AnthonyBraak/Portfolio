@@ -1,0 +1,28 @@
+body {
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  text-align: center;
+  background-color: green;
+  color: white;
+  margin: 2em;
+}
+h1 {
+  color: gold;
+}
+#message-el {
+  font-style: italic;
+}
+.btn-game {
+  background-color: gold;
+  color: green;
+  font-weight: 800;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  width: 200px;
+}
+.btn-game:hover {
+  background-color: green;
+  color: gold;
+  border: 5px solid gold;
+}
