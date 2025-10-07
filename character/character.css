@@ -1,0 +1,80 @@
+/*
+Colors used:
+#fefae0 - beige
+#dda15e - light brown
+#bc6c25 - darker light brown
+#606c38 - olive green
+#283618 - darker olive green
+*/
+
+body {
+  background: linear-gradient(#fefae0, #dda15e);
+  color: #bc6c25;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+  margin: 1em;
+}
+input {
+  display: block;
+  width: 50%;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 0.5em;
+  color: #fefae0;
+  background-color: #bc6c25;
+  border-radius: 5px;
+  border: 0.3em solid #283618;
+}
+
+.create {
+  display: flex;
+}
+.intro {
+  width: 50%;
+}
+.tell {
+  width: 40%;
+  margin: 0 auto;
+  padding: 0.5em;
+  border: 4px solid #bc6c25;
+  border-radius: 60%;
+  font-weight: 600;
+}
+.character {
+  background-color: #283618;
+  color: #fefae0;
+  text-shadow: 0 0 3px #283618;
+  width: 50%;
+}
+#imgDropdown {
+  padding: 2px;
+  text-align: center;
+  color: #fefefe;
+  background-color: #bc6c25;
+  border-radius: 8px;
+  border: 0.3em solid #283618;
+  width: 50%;
+  margin: 0.5em;
+}
+#char-img {
+  padding-top: 5%;
+  width: 50%;
+}
+.btn-create {
+  padding: 8px;
+  color: #fefefe;
+  background-color: #bc6c25;
+  border-radius: 8px;
+  font-weight: 600;
+  border: 0.3em solid #283618;
+  width: 50%;
+}
+.btn-create:hover {
+  background-color: aqua;
+}
+::placeholder {
+  color: #fefae0;
+  opacity: 0.8;
+}

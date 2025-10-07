@@ -1,0 +1,29 @@
+<html lang="en">
+  <head>
+    <link rel="stylesheet" href="character.css" />
+  </head>
+  <body>
+    <h1 class="tell">Create your character!</h1>
+    <div class="create">
+      <div class="intro">
+        <div id="dropdown-container"></div>
+        <input
+          type="text"
+          name="name"
+          id="char-name"
+          placeholder="What's your name?"
+        />
+        <input type="date" name="birth" id="char-birth" />
+        <input type="color" name="color" id="char-color" />
+        <button onclick="create()" class="btn-create">See what happens!</button>
+      </div>
+      <div class="character">
+        <img src="./images/neutral.png" alt="Profile picture" id="char-img" />
+        <p id="out-name">Name</p>
+        <p id="out-age">Date</p>
+      </div>
+    </div>
+    <script src="character.js"></script>
+    <p>Back to <a href="../index.html">Main Page</a></p>
+  </body>
+</html>
