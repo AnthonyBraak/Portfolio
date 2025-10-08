@@ -1,16 +1,16 @@
-let outName = document.getElementById("out-name");
-let outAge = document.getElementById("out-age");
-let background = document.querySelector(".character");
-let container = document.getElementById("dropdown-container");
-let image = document.getElementById("char-img");
+const outName = document.getElementById("out-name");
+const outAge = document.getElementById("out-age");
+const background = document.querySelector(".character");
+const container = document.getElementById("dropdown-container");
+const image = document.getElementById("char-img");
 
-let select = document.createElement("select");
+const select = document.createElement("select");
 select.id = "imgDropdown";
 
-let options = ["neutral", "masculine", "feminine"];
+const options = ["neutral", "masculine", "feminine"];
 
 options.forEach((text) => {
-  let option = document.createElement("option");
+  const option = document.createElement("option");
   option.value = text;
   option.text = text;
   select.appendChild(option);
@@ -19,7 +19,7 @@ options.forEach((text) => {
 container.appendChild(select);
 
 function create() {
-  let character = {
+  const character = {
     name: document.getElementById("char-name").value,
     age: document.getElementById("char-birth").value,
     color: document.getElementById("char-color").value,

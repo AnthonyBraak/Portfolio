@@ -4,16 +4,16 @@ let hasBlackjack = false;
 let isAlive = false;
 
 let message = "";
-let messageEl = document.querySelector("#message-el");
-let cardsEl = document.querySelector("#cards-el");
-let sumEl = document.querySelector("#sum-el");
+const messageEl = document.querySelector("#message-el");
+const cardsEl = document.querySelector("#cards-el");
+const sumEl = document.querySelector("#sum-el");
 
 let player = {
   name: "Guest",
   chips: 100,
 };
 
-let playerEl = document.querySelector("#player-el");
+const playerEl = document.querySelector("#player-el");
 
 function getScore() {
   if (player.chips < 0) {
@@ -34,7 +34,7 @@ getScore();
 //rounds down the random number to int, adds 1 to go from 1 to 13
 //ace (1) counts as 11, the people (11, 12, 13) count as 10
 function getRandCard() {
-  let randomCard = Math.floor(Math.random() * 13) + 1;
+  const randomCard = Math.floor(Math.random() * 13) + 1;
   if (randomCard === 1) {
     return 11;
   } else if (randomCard > 10) {
