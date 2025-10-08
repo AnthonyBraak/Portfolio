@@ -4,62 +4,93 @@
     <title>Anthony's Portfolio - Welcome</title>
   </head>
   <body>
-    <div class="business-card">
-      <img
-        src="./images/anthony.jpg"
-        alt="Anthony Braak, confident picture"
-        class="card-pic"
-      />
-      <div class="card-text">
-        <h3>Anthony Braak</h3>
-        <p>Fullstack Developer</p>
-        <h4>Berlin, Germany</h4>
-      </div>
-    </div>
+    <a id="github-link" href="https://github.com/AnthonyBraak" target="_blank"
+      ><div class="business-card">
+        <img
+          src="./images/anthony.jpg"
+          alt="Anthony Braak, confident picture"
+          class="card-pic"
+        />
+        <div class="card-text">
+          <h3>Anthony Braak</h3>
+          <p>Fullstack Developer</p>
+          <h4>Berlin, Germany</h4>
+        </div>
+      </div></a
+    >
     <h1 class="underline">Welcome to my Portfolio</h1>
     <p>
       This is a demo website to demonstrate my HTML, CSS and JavaScript skills.
     </p>
 
-    <p>
-      <a href="space/space.html">Click here</a> to look at space! (HTML + CSS)
-    </p>
-    <p>
-      <a href="cheer/cheer.html">Click here</a> to cheer up with some gifs!
-      (HTML + CSS)
-    </p>
-    <p>
-      <a href="town/town.html">Click here</a> to learn where I come from! (HTML
-      + CSS)
-    </p>
+    <table>
+      <tr>
+        <th>Project</th>
+        <th>Skills</th>
+      </tr>
+      <tr>
+        <td><a href="space/space.html">Galaxy Viewer</a></td>
+        <td>HTML, CSS</td>
+      </tr>
+      <tr>
+        <td><a href="cheer/cheer.html">Cheerful GIFS</a></td>
+        <td>HTML, CSS</td>
+      </tr>
+      <tr>
+        <td><a href="town/town.html">My Hometown</a></td>
+        <td>HTML, CSS</td>
+      </tr>
+      <tr>
+        <td><a href="blackjack/black.html">Blackjack</a></td>
+        <td>HTML, CSS, JavaScript</td>
+      </tr>
+      <tr>
+        <td><a href="character/character.html">Character Creator</a></td>
+        <td>HTML, CSS, JavaScript</td>
+      </tr>
+    </table>
 
-    <p><a href="blackjack/black.html">Blackjack</a> ! (HTML + CSS + JS)</p>
-    <p>
-      <a href="character/character.html">Click here</a> to go to a character
-      creator! (HTML + CSS + JS)
-    </p>
     <h2>Check out my Website Projects!</h2>
-    <h3>
-      <a href="https://react-food-blog.netlify.app/" target="_blank"
-        >React Food Blog</a
-      >
-      (React + TypeScript + Node.js/Express)
-    </h3>
-    <p>
-      ( <a href="descriptions/recipe.html">Read more</a> about the React Food
-      Blog first. )
-    </p>
+    <table>
+      <tr>
+        <th>Project</th>
+        <th>Main Skills</th>
+        <th>Info</th>
+      </tr>
+      <tr>
+        <td class="big-font">
+          <a href="https://react-food-blog.netlify.app/" target="_blank"
+            >React Food Blog</a
+          >
+        </td>
+        <td>React, TypeSkript, Node.js/Express</td>
+        <td><a href="descriptions/recipe.html">Read more</a></td>
+      </tr>
+      <tr>
+        <td class="big-font">
+          <a
+            href="https://github.com/AnthonyBraak/Lead-Tracker-Chrome-Extension"
+            target="_blank"
+            >Lead Tracker</a
+          >
+        </td>
+        <td>JavaScript</td>
+        <td>Chrome Extension</td>
+      </tr>
+    </table>
+
     <p>
       This is how my
       <a href="maintenance/maintenance.html">maintenance page</a> looks like if
       I ever need to fix a page
     </p>
-    <div class="footer">
+    <footer>
       <p>
         Thank you for your interest in my projects. Feel free to contact me per
         email <span class="email">anthony.braak0@gmail.com</span> or just click
         <a class="email" href="mailto:anthony.braak0@gmail.com">this link</a>.
       </p>
-    </div>
+    </footer>
+    <script src="index.js"></script>
   </body>
 </html>
