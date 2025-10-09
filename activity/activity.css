@@ -1,0 +1,47 @@
+/*
+Color palette:
+#b9b1be - light gray blue
+#667ca7 - light blue
+#2e3d5b - dark blue
+#6d5e63 - gray
+#202026 - dark gray
+*/
+
+body {
+  color: #667ca7;
+  text-shadow: 0 0 2px black;
+  text-align: center;
+  font-family: "Orbitron", sans-serif;
+  margin: 0;
+  background-image: url("../space/images/space.webp");
+  background-size: cover;
+}
+#hero {
+  margin: 2em;
+}
+img {
+  min-width: 300px;
+  max-width: 100%;
+  max-height: 500px;
+}
+button {
+  padding: 0.2em 0.5em;
+  background: #b9b1be;
+  color: #667ca7;
+  border: none;
+  font-family: inherit;
+  font-weight: 800;
+}
+button:hover {
+  padding: 0.5em 1em;
+  background: #667ca7;
+  color: #b9b1be;
+  font-size: 1.2em;
+}
+#return {
+  color: white;
+  text-shadow: 0 0 4px black;
+}
+#link-return {
+  color: inherit;
+}
