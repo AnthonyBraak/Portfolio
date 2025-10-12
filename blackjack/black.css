@@ -12,7 +12,7 @@ h1 {
 #message-el {
   font-style: italic;
 }
-.btn-game {
+#btn-game {
   background-color: gold;
   color: green;
   font-weight: 800;
@@ -21,7 +21,23 @@ h1 {
   padding: 5px 20px;
   width: 200px;
 }
-.btn-game:hover {
+#btn-game:hover {
+  background-color: green;
+  color: gold;
+  border: 5px solid gold;
+}
+#btn-new {
+  background-color: gold;
+  color: green;
+  font-weight: 800;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  width: 200px;
+  display: none;
+  margin: 5px auto;
+}
+#btn-new:hover {
   background-color: green;
   color: gold;
   border: 5px solid gold;

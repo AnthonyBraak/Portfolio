@@ -7,6 +7,7 @@ let message = "";
 const messageEl = document.querySelector("#message-el");
 const cardsEl = document.querySelector("#cards-el");
 const sumEl = document.querySelector("#sum-el");
+const btnNew = document.querySelector("#btn-new");
 
 let player = {
   name: "Guest",
@@ -52,6 +53,7 @@ function startGame() {
   sum = cards[0] + cards[1];
   isAlive = true;
   hasBlackjack = false;
+  btnNew.style.display = "inherit";
   renderGame();
 }
 
@@ -78,11 +80,13 @@ function renderGame() {
     message = "Blackjack";
     hasBlackjack = true;
     player.chips += 100;
+    btnNew.style.display = "none";
     getScore();
   } else {
     message = "Lost";
     isAlive = false;
     player.chips -= 20;
+    btnNew.style.display = "none";
     getScore();
   }
   messageEl.textContent = message;
