@@ -16,13 +16,12 @@ async function getDogs() {
 async function getSuggestion() {
   const response = await fetch("https://apis.scrimba.com/bored/api/activity");
   const data = await response.json();
-  console.log(data);
   const activityText = document.getElementById("activity-text");
   activityText.textContent = `${data.activity}. That's some kind of ${
     data.type
-  } activity where you need ${data.participants} people and pay $${
-    data.price * 100
-  }.`;
+  } activity where you need ${data.participants} ${
+    data.participants > 1 ? "people" : "person"
+  } and pay $${data.price * 100}.`;
 }
 getDogs();
 getSuggestion();
