@@ -8,6 +8,9 @@ const messageEl = document.querySelector("#message-el");
 const cardsEl = document.querySelector("#cards-el");
 const sumEl = document.querySelector("#sum-el");
 const btnNew = document.querySelector("#btn-new");
+const birthday = document.querySelector("#birthday");
+const ageContainer = document.querySelector("#age-container");
+const gameContainer = document.querySelector("#game-container");
 
 let player = {
   name: "Guest",
@@ -23,14 +26,27 @@ function getScore() {
   playerEl.textContent = player.name + ": $" + player.chips;
 }
 
-getScore();
-// function to check if a player is old enough, to be integrated later
-//let age = 21;
-//if (age < 18) {
-//  message = "Come back when you are older";
-//} else {
-//  message = "Welcome to the game";
-//}
+// function to check if a player is old enough
+
+function checkAge() {
+  const now = new Date();
+  const currentY = now.getFullYear();
+  const ageGet = birthday.value;
+  const age = new Date(ageGet);
+  const ageYear = age.getFullYear();
+  const realAge = currentY - ageYear;
+  if (realAge >= 18) {
+    message = "Welcome to the game";
+    gameContainer.style.display = "inline";
+    ageContainer.style.display = "none";
+    getScore();
+  } else {
+    message =
+      "To play, you must be at least 18. Come back when you are older than " +
+      realAge;
+  }
+  messageEl.textContent = message;
+}
 
 //rounds down the random number to int, adds 1 to go from 1 to 13
 //ace (1) counts as 11, the people (11, 12, 13) count as 10
@@ -53,7 +69,7 @@ function startGame() {
   sum = cards[0] + cards[1];
   isAlive = true;
   hasBlackjack = false;
-  btnNew.style.display = "inherit";
+  btnNew.style.display = "inline";
   renderGame();
 }
 

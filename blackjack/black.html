@@ -6,12 +6,18 @@
   <body>
     <div>
       <h1>Let's play a game of Blackjack!</h1>
+      <div id="age-container">
+        <input type="date" name="" id="birthday" />
+        <button id="btn-age" onclick="checkAge()">Confirm Age</button>
+      </div>
       <p id="message-el">Want to play?</p>
-      <p id="cards-el">Cards:</p>
-      <p id="sum-el">Sum:</p>
-      <button id="btn-game" onclick="startGame()">START GAME</button>
-      <button id="btn-new" onclick="newCard()">NEW CARD</button>
-      <p id="player-el"></p>
+      <div id="game-container">
+        <p id="cards-el">Cards:</p>
+        <p id="sum-el">Sum:</p>
+        <button id="btn-game" onclick="startGame()">START GAME</button>
+        <button id="btn-new" onclick="newCard()">NEW CARD</button>
+        <p id="player-el"></p>
+      </div>
     </div>
     <p>Back to <a href="../index.html">Main Page</a></p>
     <script src="black.js"></script>

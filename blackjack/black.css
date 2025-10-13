@@ -12,6 +12,9 @@ h1 {
 #message-el {
   font-style: italic;
 }
+#game-container {
+  display: none;
+}
 #btn-game {
   background-color: gold;
   color: green;
