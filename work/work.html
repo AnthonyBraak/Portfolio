@@ -20,14 +20,66 @@
     </div>
     <h1>What I've build</h1>
     <div id="body-div">
-      <div class="work-div" id="div-food-blog">Picture that</div>
-      <div class="work-div" id="div-blackjack">reveals text</div>
-      <div class="work-div" id="div-random">when hovered over</div>
-      <div class="work-div" id="div-town">Picture</div>
-      <div class="work-div" id="div-gif">Picture</div>
-      <div class="work-div" id="div-character">Picture</div>
-      <div class="work-div" id="div-space">Picture</div>
-      <div class="work-div" id="div-tracker">Picture</div>
+      <div
+        class="work-div"
+        id="div-food-blog"
+        data-link="https://react-food-blog.netlify.app/"
+        data-target="new"
+      >
+        Food Blog
+      </div>
+      <div
+        class="work-div"
+        id="div-blackjack"
+        data-link="../blackjack/black.html"
+      >
+        Blackjack
+      </div>
+      <div
+        class="work-div"
+        id="div-random"
+        data-link="../activity/activity.html"
+      >
+        Random Fetch
+      </div>
+      <div class="work-div" id="div-town" data-link="../town/town.html">
+        My Hometown
+      </div>
+      <div class="work-div" id="div-gif" data-link="../cheer/cheer.html">
+        GIFs to cheer up
+      </div>
+      <div
+        class="work-div"
+        id="div-character"
+        data-link="../character/character.html"
+      >
+        Mini Character creator
+      </div>
+      <div class="work-div" id="div-space" data-link="../space/space.html">
+        Space Exploration
+      </div>
+      <div
+        class="work-div"
+        id="div-tracker"
+        data-link="https://github.com/AnthonyBraak/Lead-Tracker-Chrome-Extension"
+        data-target="new"
+      >
+        Lead Tracker
+      </div>
     </div>
+    <script>
+      document.querySelectorAll(".work-div").forEach((div) => {
+        div.addEventListener("click", () => {
+          const link = div.dataset.link;
+          const target = div.dataset.target;
+
+          if (target === "new") {
+            window.open(link, "_blank");
+          } else {
+            window.location.href = link;
+          }
+        });
+      });
+    </script>
   </body>
 </html>

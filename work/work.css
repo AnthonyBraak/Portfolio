@@ -1,7 +1,7 @@
 body {
   background: linear-gradient(#bde0fe, #cdb4db);
   color: white;
-  text-shadow: 0 0 5px black;
+  text-shadow: 0 0 2px black;
   text-align: center;
 }
 #body-div {
@@ -16,7 +16,6 @@ body {
     text-decoration: none;
     margin-left: 5px;
     color: white;
-    font-size: 0.8em;
   }
 }
 .work-div {
@@ -26,6 +25,11 @@ body {
   margin-top: 1em;
   border: 6px solid white;
   border-radius: 10px;
+  font-size: 1.2em;
+}
+.work-div:hover {
+  cursor: pointer;
+  border-color: black;
 }
 #div-food-blog {
   background-image: url("../descriptions/images/food-blog.png");
@@ -41,13 +45,19 @@ body {
 }
 #div-gif {
   background-image: url("images/Screenshot-gif.png");
+  color: black;
+  text-shadow: 0 0 2cap white;
 }
 #div-character {
   background-image: url("images/Screenshot-character.png");
+  color: black;
+  text-shadow: 0 0 2cap white;
 }
 #div-space {
   background-image: url("images/Screenshot-space.png");
 }
 #div-tracker {
   background-image: url("images/Screenshot-tracker.png");
+  color: black;
+  text-shadow: 0 0 2cap white;
 }
