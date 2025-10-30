@@ -6,9 +6,11 @@ Colors used:
 #606c38 - olive green
 #283618 - darker olive green
 */
-
+html {
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0)),
+    url("images/ben-mccloskey-rP2PD6yEDBo-unsplash.jpg") center/cover no-repeat;
+}
 body {
-  background: linear-gradient(#fefae0, #dda15e);
   color: #bc6c25;
   font-family: Verdana, Geneva, Tahoma, sans-serif;
   font-size: 1.2em;
