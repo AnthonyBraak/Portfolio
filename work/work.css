@@ -1,0 +1,53 @@
+body {
+  background: linear-gradient(#bde0fe, #cdb4db);
+  color: white;
+  text-shadow: 0 0 5px black;
+  text-align: center;
+}
+#body-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  margin: 2px;
+}
+.nav {
+  text-align: right;
+  padding: 10 15px;
+  a {
+    text-decoration: none;
+    margin-left: 5px;
+    color: white;
+    font-size: 0.8em;
+  }
+}
+.work-div {
+  background-size: cover;
+  width: 200px;
+  height: 200px;
+  margin-top: 1em;
+  border: 6px solid white;
+  border-radius: 10px;
+}
+#div-food-blog {
+  background-image: url("../descriptions/images/food-blog.png");
+}
+#div-blackjack {
+  background-image: url("images/Screenshot-blackjack.png");
+}
+#div-random {
+  background-image: url("images/Screenshot-random.png");
+}
+#div-town {
+  background-image: url("images/Screenshot-town.png");
+}
+#div-gif {
+  background-image: url("images/Screenshot-gif.png");
+}
+#div-character {
+  background-image: url("images/Screenshot-character.png");
+}
+#div-space {
+  background-image: url("images/Screenshot-space.png");
+}
+#div-tracker {
+  background-image: url("images/Screenshot-tracker.png");
+}
