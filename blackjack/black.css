@@ -45,3 +45,26 @@ h1 {
   color: gold;
   border: 5px solid gold;
 }
+#btn-age {
+  background-color: gold;
+  color: green;
+  font-weight: 800;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  width: 150px;
+}
+#btn-age:hover {
+  background-color: green;
+  color: gold;
+  border: 5px solid gold;
+}
+#birthday {
+  background-color: gold;
+  color: green;
+  font-weight: 800;
+  border: none;
+  border-radius: 2px;
+  padding: 5px 20px;
+  width: 150px;
+}
