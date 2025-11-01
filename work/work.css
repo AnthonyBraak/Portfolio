@@ -37,6 +37,11 @@ body {
 #div-blackjack {
   background-image: url("images/Screenshot-blackjack.png");
 }
+#div-tic {
+  background-image: url("images/Screenshot-tictactoe.png");
+  color: black;
+  text-shadow: 0 0 2cap white;
+}
 #div-random {
   background-image: url("images/Screenshot-random.png");
 }

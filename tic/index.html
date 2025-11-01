@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Tic Tac Toe</title>
+    <meta charset="UTF-8" />
+    <meta name="keywords" content="HTML, CSS, JavaScript, Tic-Tac-Toe" />
+    <meta name="description" content="Free Tic-Tac-Toe game" />
+    <meta name="author" content="Anthony Braak" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Tic Tac Toe</h1>
+      <h2 id="text-opponent">Player 1 vs ...</h2>
+      <button class="btn" id="btn-player">Player 2</button>
+      <button class="btn" id="btn-computer">Computer</button>
+      <button class="btn" id="btn-back">Back</button>
+      <div id="container-cells">
+        <div cellIndex="0" , class="cell"></div>
+        <div cellIndex="1" , class="cell"></div>
+        <div cellIndex="2" , class="cell"></div>
+        <div cellIndex="3" , class="cell"></div>
+        <div cellIndex="4" , class="cell"></div>
+        <div cellIndex="5" , class="cell"></div>
+        <div cellIndex="6" , class="cell"></div>
+        <div cellIndex="7" , class="cell"></div>
+        <div cellIndex="8" , class="cell"></div>
+      </div>
+      <h3 id="text-status"></h3>
+      <button class="btn" id="btn-restart">Restart</button>
+      <button class="btn" id="btn-easy">Easy Mode</button>
+    </div>
+    <p id="return">
+      Back to <a href="../index.html" id="link-return">Main Page</a>
+    </p>
+    <script src="game.js"></script>
+  </body>
+</html>

@@ -1,0 +1,59 @@
+/* 
+colores used:
+#fefae0 - beige
+#dda15e - light brown
+#bc6c25 - brown
+#606c38 - olive green
+#283618 - dark green
+ */
+body {
+  background-color: #606c38;
+  color: #283618;
+}
+#container {
+  font-family: "Permanent Marker", cursive;
+  text-align: center;
+  background-color: #fefae0;
+  min-width: 250px;
+  max-width: 350px;
+  padding: 10px;
+  margin: 20px auto;
+}
+.cell {
+  width: 75px;
+  height: 75px;
+  border: 2px solid;
+  box-shadow: 0 0 0 2px #283618;
+  font-size: 50px;
+  cursor: pointer;
+}
+.cell:hover {
+  background-color: #dda15e;
+}
+#container-cells {
+  display: grid;
+  grid-template-columns: repeat(3, auto);
+  width: 15em;
+  margin: 20px auto;
+}
+.btn {
+  background-color: #bc6c25;
+  color: #fefae0;
+  border: 2px solid #dda15e;
+  border-radius: 5px;
+  width: 85px;
+  height: 30px;
+  cursor: pointer;
+}
+.btn:hover {
+  background-color: #dda15e;
+  border-color: #bc6c25;
+}
+#return {
+  text-align: center;
+  text-shadow: 0 0 0.1px black;
+  a {
+    text-decoration: none;
+    color: #fefae0;
+  }
+}
