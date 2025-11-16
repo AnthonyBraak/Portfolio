@@ -1,6 +1,8 @@
 body {
-  background: linear-gradient(#bde0fe, #cdb4db);
-  color: white;
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0)),
+    url("../images/ben-mccloskey-rP2PD6yEDBo-unsplash.jpg") center/cover
+      no-repeat;
+  color: whitesmoke;
   text-shadow: 0 0 2px black;
   text-align: center;
 }
@@ -16,7 +18,7 @@ body {
   a {
     text-decoration: none;
     margin-left: 5px;
-    color: white;
+    color: whitesmoke;
   }
 }
 .work-div {
@@ -24,7 +26,7 @@ body {
   width: 200px;
   height: 200px;
   margin-top: 1em;
-  border: 6px solid white;
+  border: 6px solid whitesmoke;
   border-radius: 10px;
   font-size: 1.2em;
 }
@@ -41,7 +43,7 @@ body {
 #div-tic {
   background-image: url("images/Screenshot-tictactoe.png");
   color: black;
-  text-shadow: 0 0 2cap white;
+  text-shadow: 0 0 2cap whitesmoke;
 }
 #div-random {
   background-image: url("images/Screenshot-random.png");
@@ -52,12 +54,12 @@ body {
 #div-gif {
   background-image: url("images/Screenshot-gif.png");
   color: black;
-  text-shadow: 0 0 2cap white;
+  text-shadow: 0 0 2cap whitesmoke;
 }
 #div-character {
   background-image: url("images/Screenshot-character.png");
   color: black;
-  text-shadow: 0 0 2cap white;
+  text-shadow: 0 0 2cap whitesmoke;
 }
 #div-space {
   background-image: url("images/Screenshot-space.png");
@@ -65,5 +67,5 @@ body {
 #div-tracker {
   background-image: url("images/Screenshot-tracker.png");
   color: black;
-  text-shadow: 0 0 2cap white;
+  text-shadow: 0 0 2cap whitesmoke;
 }
