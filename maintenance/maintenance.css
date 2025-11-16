@@ -1,19 +1,32 @@
 body {
   background-image: url(../images/Autumn.webp);
   background-size: cover;
-  color: white;
-  text-shadow: 0 0 40px black;
+  color: whitesmoke;
+  text-shadow: 0 0 4px black;
   margin: 2em;
   text-align: justify;
+}
+a {
+  color: whitesmoke;
+  text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-shadow: -1px -1px 2px wheat;
+}
+.nav {
+  text-align: right;
+  padding: 10 15px;
+  a {
+    margin-left: 5px;
+  }
 }
 #email {
   font-weight: 800;
 }
 .a {
-  text-decoration: none;
-  color: white;
   font-weight: 800;
-  border: 2px solid white;
+  border: 2px solid whitesmoke;
   padding: 5px 10px;
 }
 p {
